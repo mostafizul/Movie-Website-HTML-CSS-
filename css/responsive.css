@@ -1,53 +1,42 @@
 @media (max-width:768px){
-    header,header #header-logo,#search-bar,nav{
+    header,header #header-logo,nav,.movie-box,#movie-section h1{
     float: none;
     width: 100%;
     text-align: center;
     padding: 20px 0px;
+    margin: 0 auto;
     }
-    .movie-choice{
+    .movie-poster img{
+        width: 250px;
+        height: 250px;
+    }
+    #search-bar{
+    float: none;
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+    margin-left: -20px;
+    }
+    .movie-choice,.movie-choice ul li a{
     float: none;
     width: 100%;
     text-align: center;
-    font-size: 12.6px;
+    font-size: 10px;
     padding: 12px 0px; 
     }
-    ul li:hover .submenu{
-        position: absolute;
-        display: block;
-        margin-top: -19px;
-        margin-left: 220px;
-        border: 1px solid white;
+    .full-body{
+        height:900px;
     }
 }
 
 @media (max-width:375px){
-    .movie-choice{
+    .movie-choice,.movie-choice ul li a{
         float: none;
         width: 100%;
         text-align: center;
-        font-size: 12px; 
+        font-size: 8px; 
         }
-    ul li:hover .submenu{
-        position: absolute;
-        display: block;
-        margin-top: -19px;
-        margin-left: 145px;
-        border: 1px solid white;
-    }
-    ul li:hover .submenu ul li{
-        font-size: 15px;
-    }
 }
-@media (max-width:414px){
-    ul li:hover .submenu{
-        position: absolute;
-        display: block;
-        margin-top: -19px;
-        margin-left: 170px;
-        border: 1px solid white;
-    }
-} 
 
 
 
