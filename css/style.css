@@ -107,14 +107,6 @@ header nav .active a, #header-logo h1 .active{
     background-size: cover;
     background-position: center;
 }
-#search-bar .fa-search-plus{
-   height: 28px;
-   width: 35px;
-   background-color:#2621fa; 
-   text-align: center;
-   position: absolute;
-   margin-top: 4.1px;
-}
 #home{
    text-align: center;
    padding: 120px 0px;

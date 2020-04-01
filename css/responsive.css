@@ -21,12 +21,13 @@
     float: none;
     width: 100%;
     text-align: center;
-    font-size: 10px;
+    font-size: 23px;
     padding: 12px 0px; 
     }
     .full-body{
         height:900px;
     }
+    
 }
 
 @media (max-width:375px){
@@ -34,8 +35,22 @@
         float: none;
         width: 100%;
         text-align: center;
-        font-size: 8px; 
-        }
+        font-size: 14px;
+        padding: 12px 0px; 
+        } 
+    #search-bar {
+        float: right;
+        margin-bottom: 10px; 
+    
+    }
+    header nav ul li a{
+        text-transform: uppercase;
+        padding: 3px 20px;
+        color: white;
+        font-weight: bold;
+        font-size: 9px;
+        border-radius: 25px;
+    }     
 }
 
 
