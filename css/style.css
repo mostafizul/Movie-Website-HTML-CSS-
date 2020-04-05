@@ -1,166 +1,52 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     list-style-type: none;
     text-decoration: none;
-    font-family: 'Baloo Da 2', cursive;
-    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 .container{
-    width: 92%;
+    width:95%;
     overflow: hidden;
     margin: 0 auto;
 }
-.full-body{
-    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.9))  , url("../asset/img/bg2.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height:570px;
-}  
 header{
+    width: 100%;
+    height: 80px;
     background-color: rgba(0,0,0,0.8);
-    min-height: 70px;
-    color: white;
 }
-header #header-logo{
+#logo{
     float: left;
+    line-height: 80px;
     font-size: 14px;
-    margin-top: 10px;
     cursor: pointer;
 }
-header nav{
-    float: right;
-    font-size: 14px;
-    line-height: 70px;
-}
-header #search-bar{
-    float: right;
-    line-height: 70px;
-    margin-left: 40px;
-}
-header nav ul li{
-    display: inline;
-    padding: 6px 0px;
-}
-header nav ul li a{
-    text-transform: uppercase;
-    padding: 3px 20px;
+#logo a{
     color: white;
-    font-weight: bold;
+}
+.nav-menu{
+    float: right;
+}
+.nav-menu ul li{
+    display: inline-block;
+    padding: 0px 18px;
+    line-height: 80px;
+}
+.nav-menu ul li a{
+    text-transform: uppercase;
+    color: white;
     font-size: 15px;
-    border-radius: 25px;
 }
-header nav ul li a:hover{
-    background-color: rgba(255,255,255,0.8);
-    color: black;
+#toggle{
+    display: none;
 }
-header nav .active a, #header-logo h1 .active{
-    color: tomato;
+.bar{
+    display: none;
 }
-#movie-search{
-    background-color: rgba(0,0,0,0.8);
-    color: white;
-    border-top: 1px dashed white;
-    border-bottom:1px dashed white; 
-}
-.movie-choice{
-    float: left;
-    width: 68%;
-}
-.movie-choice ul li{
-    display: inline;
-    padding: 25px 20px;
-}
-.movie-choice ul li a{
-    color: tomato;
-    line-height: 70px;
-    text-transform: uppercase;
-    font-size: 17px;
+.nav-menu ul li:hover{
+    background-color: rgba(0,0,0,0.7);
     font-weight: bold;
 }
-.movie-choice ul li a:hover{
-    color: white;  
-}
-#search-bar{
-    float: right;
-    width: 30%;
-    margin-top: 14px;
-    margin-bottom: 10px;
-}
-#search-bar input[type=search]{
-    width: 181px;
-    height: 28px;
-}
-#search-bar i{
-    padding: 5px 3px;
-    height: 16px;
-    color: white;
-    font-size: 16px;   
-}
-#search-bar i:hover{
-   color:tomato;
-}
-#home{
-    min-height: 330px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-#home{
-   text-align: center;
-   padding: 120px 0px;
-}
-#home h1{
-   font-size: 45px; 
-   color:white;
-   animation-name: example;
-   animation-duration: 4s;
-   animation-iteration-count: infinite;
-}
-@keyframes example{
-    from {color:tomato;}
-    to {-color: yellow;}
-  }
-#home .play-btn{
-   height: 50px;
-   width: 100px;
-   text-transform: uppercase;
-   font-size: 22px;
-   font-weight: bold;
-   background-color: #16a085;
-   border: none;
-   border-radius: 50px;
-   color:white;
-}
-#home .play-btn:hover{
-    background-color: #1abc9c;
-}
-#movie-section{
-    min-height: 100px;
-    background-color: rgba(0,0,0,0.8);
-    padding-bottom: 30px;
-}
-#movie-section h1{
-    margin: 25px 44px;
-    color: white;
-    text-transform: uppercase;
-}
-.movie-box{
-    float: right;
-    width: 24.2%;
-    text-align: center;
-    margin: 0px 2px;
-}
-.movie-poster img{
-    width: 80%;
-    height: 250px;
-}
-.movie-poster h2{
-    color: white;
-    font-size: 19px;
-}
-.movie-poster p{
-    color: red;
-    font-size: 14px;
+.nav-menu ul .active a,#logo h1 .active{
+   color: tomato;
 }

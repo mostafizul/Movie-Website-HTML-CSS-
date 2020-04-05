@@ -1,57 +1,54 @@
-@media (max-width:768px){
-    header,header #header-logo,nav,.movie-box,#movie-section h1{
-    float: none;
+@media (max-width:782px){
+    header{
     width: 100%;
-    text-align: center;
-    padding: 20px 0px;
-    margin: 0 auto;
+    height: 50px;
+    background-color: rgba(0,0,0,0.7);
     }
-    .movie-poster img{
-        width: 250px;
-        height: 250px;
-    }
-    #search-bar{
-    float: none;
-    width: 100%;
-    padding: 20px 0px;
-    text-align: center;
-    margin-left: -20px;
-    }
-    .movie-choice,.movie-choice ul li a{
-    float: none;
-    width: 100%;
-    text-align: center;
-    font-size: 23px;
-    padding: 12px 0px; 
-    }
-    .full-body{
-        height:900px;
-    }
-    
-}
-
-@media (max-width:375px){
-    .movie-choice,.movie-choice ul li a{
-        float: none;
+    #logo{
         width: 100%;
+        float: none;
         text-align: center;
-        font-size: 14px;
-        padding: 12px 0px; 
-        } 
-    #search-bar {
-        float: right;
-        margin-bottom: 10px; 
-    
+        line-height: 50px;
     }
-    header nav ul li a{
-        text-transform: uppercase;
-        padding: 3px 20px;
+    .nav-menu{
+        float: none;
+        width: 80%;
+        background-color: rgba(0,0,0,0.8);
+        margin: 0 auto;
+        border: 1px solid snow;       
+    }
+    .nav-menu ul li{
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid wheat;
+        height: 50px;
+        line-height: 50px;
+    }
+    .nav-menu ul li a{
+        font-size: 16px;
+    }
+    .nav-menu ul li{
+      display: none;
+    }
+    #toggle:checked + .nav-menu ul li{
+        display: block;
+    }
+    .fa-bars{
+        font-size: 24px;
         color: white;
-        font-weight: bold;
-        font-size: 9px;
-        border-radius: 25px;
-    }     
+    }
+    .bar{
+        display: block;
+        position: absolute;
+        top:1.2%;
+        left: 93%;
+    }
 }
-
-
-
+@media (max-width:414px){
+    .bar{
+        display: block;
+        position: absolute;
+        top:1.9%;
+        left: 90%;
+    }
+}
