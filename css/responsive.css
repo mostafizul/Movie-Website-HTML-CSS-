@@ -58,7 +58,12 @@
         width: 105%;
         text-align: center;
     }
-       
+    .home-img img{
+        width: 210px;
+        height: 250px;
+        margin: 90px 0px;
+        border: 1px solid white;
+    }     
 }
 @media (max-width:414px){
     .bar{
@@ -68,7 +73,13 @@
         left: 90%;
     }
     .search-bar input[type=search]{
-        width: 200px;
+        width: 230px;
         height: 25px;
     }
+    .home-img{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+   
 }
