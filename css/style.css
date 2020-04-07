@@ -11,7 +11,7 @@
     margin: 0 auto;
 }
 .body-img{
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.6)),
     url(../asset/img/bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -67,25 +67,61 @@ header{
     overflow: hidden;
     min-height: 525px;  
 }
-
-#submenu{
-   min-height: 60px;
-   background-color: rgba(0,0,0,0.8);
-   width: 100%;
-   overflow: hidden;
-   z-index: 1;
-   position: absolute;
-   border-top: 2px solid white;
-}
 .home-img{
     float: left;
 }
 .home-img img{
     width: 270px;
-    height: 330px;
+    height: 380px;
     margin: 70px 0px;
     border: 1px solid white;
 }
+.home-description{
+    float: right;
+    width: 76%;
+    margin: 70px 0px;
+    line-height: 35px;
+    color: white;
+}
+.home-description h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 5px;
+    line-height: 50px;
+    letter-spacing: 1.9px;
+}
+.home-description i{
+    font-size: 18px;
+}
+.home-description ul li{
+    display: inline-block;
+    margin-right: 16px;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+.home-description #description{
+    width: 460px;
+    text-align: justify;
+    font-size: 12px;
+}
+.home-description button{
+    width: 150px;
+    height: 40px;
+    background-color:red;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    margin-right: 20px;   
+}
+#submenu{
+    min-height: 60px;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+    position: absolute;
+    border-top: 2px solid white;
+ } 
 .left-menu{
     float: left;
     line-height: 60px;
@@ -121,4 +157,4 @@ header{
     line-height: 60px;
     margin-left: -20px;
 }
-
+   
