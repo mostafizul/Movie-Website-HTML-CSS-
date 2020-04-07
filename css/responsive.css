@@ -83,7 +83,6 @@
     .search-bar input[type=search]{
         width: 270px;
         height: 40px;
-        position: relative;
         margin-bottom: 20px;
     }    
 }
@@ -108,6 +107,11 @@
         height: 50px;
         background-color:red;
         margin-top: 183px;
-    }  
+    }
+    .search-bar input[type=search]{
+        width: 270px;
+        height: 40px;
+        margin-bottom: 20px;
+    }     
    
 }
