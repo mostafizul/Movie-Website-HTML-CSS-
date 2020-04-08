@@ -149,7 +149,6 @@ header{
 .search-bar input[type=search]{
     width: 270px;
     height: 30px;
-    position: relative;
 }
 .left-menu ul li:hover{
     background-color: rgba(0,0,0,0.7);
@@ -173,7 +172,7 @@ header{
    width: 68%;
    margin-top: 30px;
    float: left;
-   min-height: 30px;
+   min-height: 520px;
    background-color: white;
 }
 .movies-left img{
@@ -189,6 +188,10 @@ header{
     padding: 10px 10px;
     font-size: 17px;
 }
+.avg p{
+    text-align: justify;
+    color: #2c3e50;
+}
 .fa-star{
     color: #D4AF37;
 }
@@ -200,25 +203,28 @@ header{
     margin-top: 30px;
     float: right;
     background-color: white;
-    height: 520px;
+    height: 550px;
     border-radius: 15px;
     padding: 10px 20px;
 }
 .upcoming-movies{
     margin-top: 20px;
-    position: relative;
+    top:10%;
 }
 .upcoming-movies h1{
     display: inline-block;
     position: absolute;
-    top: 20px;
-    left: 90px;
+    margin-left: 7px;
+    font-size: 15px;
 }
 .upcoming-movies p{
     display: inline-block;
     position: absolute;
-    top: 45px;
+    margin-top: 30px;
+    margin-left: -2px;
+    font-size: 12px;
 }
 .upcoming-movies img{
     width: 80px;
+    margin-bottom: 3px;
 }

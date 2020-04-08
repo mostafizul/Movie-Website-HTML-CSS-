@@ -7,10 +7,15 @@
         color: white;
     }
     
+    
 }
-@media(max-width:1127px){
-    .upcoming-movies h1,p{
-        font-size: 14px;
+@media(max-width:1000px){
+    .upcoming-movies h1{
+        font-size: 15px;
+    }
+    .upcoming-movies p{
+        font-size: 8.1px;
+        font-weight: bold;
     }
 }
 @media(max-width:809px){
@@ -18,6 +23,12 @@
         float: none;
         width: 100%;
         text-align: center;
+    }
+    .upcoming-movies h1{
+        font-size: 29px;
+    }
+    .upcoming-movies p{
+        font-size: 15px;
     }
     #movies .right-div{
         float: none;
@@ -29,6 +40,7 @@
         width: 100%;
         text-align: center;
     }
+    
 }
 
 @media (max-width:790px){
