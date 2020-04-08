@@ -6,12 +6,22 @@
         line-height: 35px;
         color: white;
     }
+    
+}
+@media(max-width:1127px){
+    .upcoming-movies h1,p{
+        font-size: 14px;
+    }
 }
 @media(max-width:809px){
-    .home-img{
+    .home-img,#movies .movies-left{
         float: none;
         width: 100%;
         text-align: center;
+    }
+    #movies .right-div{
+        float: none;
+        width: 100%; 
     }
     .home-description,.home-description #description{
         margin-top: -1px;
@@ -20,7 +30,8 @@
         text-align: center;
     }
 }
-@media (max-width:782px){
+
+@media (max-width:790px){
     header{
     width: 100%;
     height: 50px;
@@ -34,7 +45,7 @@
     }
     .nav-menu{
         float: none;
-        width: 80%;
+        width: 95%;
         background-color: rgba(28,28,28,0.96);
         margin: 0 auto;
     }
@@ -64,7 +75,7 @@
     .bar{
         display: block;
         position: absolute;
-        top:1.2%;
+        top:20%;
         left: 93%;
     }
     .left-menu{
@@ -84,13 +95,14 @@
         width: 270px;
         height: 40px;
         margin-bottom: 20px;
-    }    
+    }
+      
 }
 @media (max-width:414px){
     .bar{
         display: block;
         position: absolute;
-        top:1.9%;
+        top:20%;
         left: 90%;
     }
     .search-bar input[type=search]{
@@ -102,16 +114,42 @@
         text-align: center;
         width: 100%;
     }
-    #movies{
-        width: 100%;
-        height: 50px;
-        background-color:red;
-        margin-top: 183px;
-    }
     .search-bar input[type=search]{
         width: 270px;
         height: 40px;
         margin-bottom: 20px;
-    }     
+    }
    
 }
+
+/*
+
+<div class="movies-section">
+           <div class="movies-box">
+               <img src="/asset/img/3idiots.jpg" alt="3 Idiots">
+               <h2>3 Idiots (2009)</h2>
+               <p>Comedy, Drama </p> 
+               <h4><i class="fas fa-star"></i> 8.4</h4>
+           </div>
+           <div class="movies-box">
+            <img src="/asset/img/ghajini.jpg" alt="Ghajini">
+            <h2>Ghajini (2008)</h2>
+            <p>Action, Drama, Mystery </p>
+            <h4><i class="fas fa-star"></i> 7.3</h4>
+          </div>
+          <div class="movies-box">
+            <img src="/asset/img/PK_poster.jpg" alt="P.K.">
+            <h2>PK (2014)</h2>
+            <p>Comedy, Drama, Fantasy</p>
+            <h4><i class="fas fa-star"></i> 8.1</h4>
+          </div>
+          <div class="movies-box">
+            <img src="/asset/img/tzp.jpg" alt="P.K.">
+            <h2>PK (2014)</h2>
+            <p>Comedy, Drama, Fantasy</p>
+            <h4><i class="fas fa-star"></i> 8.1</h4>
+          </div>
+        </div>
+
+
+        */
