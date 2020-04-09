@@ -17,6 +17,10 @@
         font-size: 8.1px;
         font-weight: bold;
     }
+    #movies-poster .movie-box{
+        width: 33.3%;
+        text-align: center;
+    }
 }
 @media(max-width:809px){
     .home-img,#movies .movies-left{
@@ -107,6 +111,11 @@
         width: 270px;
         height: 40px;
         margin-bottom: 20px;
+    }
+    #movies-poster .movie-box{
+        width: 50%;
+        text-align: center;
+
     }
       
 }
