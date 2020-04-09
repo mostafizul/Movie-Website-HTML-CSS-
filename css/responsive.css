@@ -5,9 +5,7 @@
         margin: 70px 0px;
         line-height: 35px;
         color: white;
-    }
-    
-    
+    } 
 }
 @media(max-width:1000px){
     .upcoming-movies h1{
@@ -17,7 +15,7 @@
         font-size: 8.1px;
         font-weight: bold;
     }
-    #movies-poster .movie-box{
+    #movies-poster .movie-box,#tvseries-poster .movie-box{
         width: 33.3%;
         text-align: center;
     }
@@ -112,7 +110,7 @@
         height: 40px;
         margin-bottom: 20px;
     }
-    #movies-poster .movie-box{
+    #movies-poster .movie-box,#tvseries-poster .movie-box{
         width: 50%;
         text-align: center;
 
@@ -139,38 +137,6 @@
         width: 270px;
         height: 40px;
         margin-bottom: 20px;
-    }
+    }  
    
 }
-
-/*
-
-<div class="movies-section">
-           <div class="movies-box">
-               <img src="/asset/img/3idiots.jpg" alt="3 Idiots">
-               <h2>3 Idiots (2009)</h2>
-               <p>Comedy, Drama </p> 
-               <h4><i class="fas fa-star"></i> 8.4</h4>
-           </div>
-           <div class="movies-box">
-            <img src="/asset/img/ghajini.jpg" alt="Ghajini">
-            <h2>Ghajini (2008)</h2>
-            <p>Action, Drama, Mystery </p>
-            <h4><i class="fas fa-star"></i> 7.3</h4>
-          </div>
-          <div class="movies-box">
-            <img src="/asset/img/PK_poster.jpg" alt="P.K.">
-            <h2>PK (2014)</h2>
-            <p>Comedy, Drama, Fantasy</p>
-            <h4><i class="fas fa-star"></i> 8.1</h4>
-          </div>
-          <div class="movies-box">
-            <img src="/asset/img/tzp.jpg" alt="P.K.">
-            <h2>PK (2014)</h2>
-            <p>Comedy, Drama, Fantasy</p>
-            <h4><i class="fas fa-star"></i> 8.1</h4>
-          </div>
-        </div>
-
-
-        */
