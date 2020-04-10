@@ -1,3 +1,8 @@
+@media(max-width:1191px){
+    #subscription .subscription-box{
+        width: 24.4%;
+    }
+}
 @media(max-width:1250px){
     .home-description{
         float: right;
@@ -5,6 +10,15 @@
         margin: 70px 0px;
         line-height: 35px;
         color: white;
+    }
+    .sign-up{
+        width: 180px;
+        height: 28px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    #subscription .subscription-box{
+        font-size: 12px;
     } 
 }
 @media(max-width:1000px){
@@ -113,8 +127,29 @@
         text-align: center;
         float: left;
         overflow: hidden;
+   }
+   #subscription .subscription-box{
+    width: 47%;
+    margin: 10px 9px;
 }
       
+}
+@media (max-width:637px){
+    #subscription .subscription-box{
+        width: 96.8%;
+    }
+    #subscription h4{
+        margin-top: 40px;
+        font-size: 15px;
+        text-transform: uppercase;
+        background-color: #d35400;
+        text-align: center;
+        color: white;
+        width: 250px;
+        display: block;
+        margin: 0 auto;
+        border-radius: 50px;
+    }
 }
 @media (max-width:414px){
     .bar{
@@ -149,6 +184,6 @@
     }
     .movie-box h3{
         font-size: 11px;
-    }  
-   
+    }
+
 }
