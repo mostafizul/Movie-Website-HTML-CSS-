@@ -41,8 +41,7 @@
         float: none;
         width: 100%;
         text-align: center;
-    }
-    
+    }    
 }
 @media (max-width:790px){
     header{
@@ -112,8 +111,9 @@
     #movies-poster .movie-box,#tvseries-poster .movie-box{
         width: 50%;
         text-align: center;
-
-    }
+        float: left;
+        overflow: hidden;
+}
       
 }
 @media (max-width:414px){
@@ -138,8 +138,17 @@
         margin-bottom: 44px;
     }
     #movies-poster .movie-box,#tvseries-poster .movie-box{
-        padding: 0px 15px;
-        font-size: 10px;
+        padding: 0px 6px;
+        width: 50%;
+        text-align: center;
+        float: left;
+        overflow: hidden;
+    }
+    .movie-box h2{
+        font-size: 13px;
+    }
+    .movie-box h3{
+        font-size: 11px;
     }  
    
 }
