@@ -44,7 +44,6 @@
     }
     
 }
-
 @media (max-width:790px){
     header{
     width: 100%;
@@ -108,7 +107,7 @@
     .search-bar input[type=search]{
         width: 270px;
         height: 40px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     #movies-poster .movie-box,#tvseries-poster .movie-box{
         width: 50%;
@@ -136,7 +135,11 @@
     .search-bar input[type=search]{
         width: 270px;
         height: 40px;
-        margin-bottom: 20px;
+        margin-bottom: 44px;
+    }
+    #movies-poster .movie-box,#tvseries-poster .movie-box{
+        padding: 0px 8px;
+        font-size: 10px;
     }  
    
 }
