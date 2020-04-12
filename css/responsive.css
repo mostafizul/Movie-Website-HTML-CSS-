@@ -185,5 +185,11 @@
     .movie-box h3{
         font-size: 11px;
     }
+    #subscription h3{
+        width: 250px;
+        height: 35px;
+        font-size: 18px;
+        line-height: 35px;
+    }
 }
 

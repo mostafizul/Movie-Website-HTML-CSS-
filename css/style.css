@@ -314,9 +314,9 @@ header{
     padding-top: 30px;
 }
 #subscription h3{
-    font-size: 30px;
+    font-size: 23px;
     background-color: tomato;
-    width: 420px;
+    width: 330px;
     height: 44px;
     margin: 0 auto;
     text-align: center;
@@ -324,6 +324,7 @@ header{
     text-transform: uppercase;
     color: white;
     box-shadow: 1px 1px 3px 1px black;
+    line-height: 44px;
 }
 .our_services{
     width: 100%;
@@ -339,7 +340,7 @@ header{
     height: 400px;
     border: 1px solid black;
     margin-bottom: 40px;
-    box-shadow: 1px 1px 5px 2px black;
+    box-shadow: 1px 1px 5px 1px black;
     background-color: rgba(232, 232, 232, 0.2);
 }
 .box:hover{
@@ -380,4 +381,43 @@ header{
 }
 .box-content i{
     color: #2ecc71;
+}
+#patners{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0,0,0,0.8);
+    padding: 40px 0px;
+    overflow: hidden;
+}
+#patners h1{
+   width: 220px;
+   height: 33px;
+   background-color: sandybrown;
+   text-align: center;
+   line-height: 33px;
+   border-radius: 50px;
+   text-transform: uppercase;
+   font-size: 23px;
+   margin: 0 auto;
+   margin-bottom: 50px;
+}
+#patners .partner{
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0px;
+  flex-wrap: wrap;
+}
+#patners .partner .partner-box{
+  width: 290px;
+  height: 150px;
+  background-color: white;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.partner-box img{
+  width: 75%;
 }
