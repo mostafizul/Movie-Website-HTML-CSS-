@@ -441,27 +441,22 @@ header{
     display: flex;
     padding: 20px 0px;
 }
-.adress-right{
-   flex-basis: 38%;
-   font-weight: bold;
-   border-right: 2px solid black;
-   padding: 17px 0px;
-}
-.adress-right p{
-  font-size: 21px;
-}
 .adress-left{
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
-    margin-top: 26px;
+    flex:2;
+    border-right: 2px solid black;
 }
-.adress-left i{
-    font-size: 17px;
+.adress-right{
+    display: flex;
+    flex: 5;
+    flex-direction: column;
+    padding: 0px 15px;
 }
-.adress-left .phone{
-    color: #e74c3c;
+.adress-right .phone{
+    color: #DC3545;
 }
-.adress-left .email{
-    color: rgb(4, 187, 248);
+.adress-right .email{
+    color: rgb(0, 183, 255);
 }
+

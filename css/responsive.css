@@ -191,5 +191,18 @@
         font-size: 18px;
         line-height: 35px;
     }
+    .adress-right{
+        padding: 0px 1px;
+    }
+    .adress-right p{
+        font-size: 15px;
+    }
 }
-
+@media (max-width:375px){
+    .adress-right{
+        padding: 0px 1px;
+    }
+    .adress-right p{
+        font-size: 11px;
+    }
+}
