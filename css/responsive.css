@@ -132,6 +132,9 @@
     width: 47%;
     margin: 10px 9px;
   }
+   .contact-body{
+       flex-direction: column;
+   }
       
 }
 @media (max-width:637px){
@@ -150,6 +153,9 @@
         margin: 0 auto;
         border-radius: 50px;
     }
+   
+   
+
 }
 @media (max-width:414px){
     .bar{

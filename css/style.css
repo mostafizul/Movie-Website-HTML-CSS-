@@ -459,4 +459,66 @@ header{
 .adress-right .email{
     color: rgb(0, 183, 255);
 }
+.contact-body{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+}
+.cb-left{
+    flex: 1;
+    background-color:rgba(0,0,0,0.8);
+}
+.cb-left form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.cb-left form input[type=text],button{
+    width: 55%;
+    height: 35px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.cb-left form button{
+    margin-bottom: 40px;
+    background-color: #e67e22;
+    font-size: 20px;
+    color: white;
+}
+.cb-left form button:hover{
+    background-color: #d35400;
+}
+.cb-left form textarea{
+    width: 55%;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.cb-right{
+    flex: 1;
+    padding: 15px 37px;
+}
+.cb-right img{
+   width: 100%;
+   border: 1px solid black;
+   margin-top: 15px;
+}
+.cb-right p i{
+font-size: 29px;
+padding: 5px 6px;
+}
+.fa-facebook-square{
+    color: #44609D;
+}
+.fa-twitter-square{
+    color: #1A91DA;
+}
+.fa-linkedin{
+    color:#0073B1;
+}
+
 
