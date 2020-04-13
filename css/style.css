@@ -339,7 +339,7 @@ header{
     width: 300px;
     height: 400px;
     border: 1px solid black;
-    margin-bottom: 40px;
+    margin: 30px 20px;
     box-shadow: 1px 1px 5px 1px black;
     background-color: rgba(232, 232, 232, 0.2);
 }
@@ -413,11 +413,55 @@ header{
   width: 290px;
   height: 150px;
   background-color: white;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .partner-box img{
   width: 75%;
+}
+#contactus{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: #ACD7E5;
+    padding: 30px 40px;
+}
+#contactus h1{
+   text-transform: uppercase;
+   font-size: 35px;
+   margin-bottom: 10px;
+}
+.contact-head{
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+    margin-top: 30px;
+    display: flex;
+    padding: 20px 0px;
+}
+.adress-right{
+   flex-basis: 38%;
+   font-weight: bold;
+   border-right: 2px solid black;
+   padding: 17px 0px;
+}
+.adress-right p{
+  font-size: 21px;
+}
+.adress-left{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 26px;
+}
+.adress-left i{
+    font-size: 17px;
+}
+.adress-left .phone{
+    color: #e74c3c;
+}
+.adress-left .email{
+    color: rgb(4, 187, 248);
 }
