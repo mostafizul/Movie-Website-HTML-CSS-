@@ -33,6 +33,9 @@
         width: 33.3%;
         text-align: center;
     }
+    .about-body{
+        flex-direction: column;
+    }
 }
 @media(max-width:809px){
     .home-img,#movies .movies-left{
@@ -134,8 +137,7 @@
   }
    .contact-body{
        flex-direction: column;
-   }
-      
+   }    
 }
 @media (max-width:637px){
     #subscription .subscription-box{
@@ -153,9 +155,12 @@
         margin: 0 auto;
         border-radius: 50px;
     }
-   
-   
-
+    .ab-left-upper p{
+        font-size: 15px;
+     }
+     .ab-right-upper,.ab-right-lower{
+         flex-direction: column;
+     }
 }
 @media (max-width:414px){
     .bar{
@@ -203,6 +208,9 @@
     .adress-right p{
         font-size: 15px;
     }
+    .ab-left-upper p{
+        font-size: 10px;
+     }
 }
 @media (max-width:375px){
     .adress-right{
