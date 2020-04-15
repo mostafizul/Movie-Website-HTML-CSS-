@@ -58,6 +58,9 @@
         float: none;
         width: 100%;
         text-align: center;
+    }
+    .footer-body{
+        flex-direction: column;
     }    
 }
 @media (max-width:790px){
